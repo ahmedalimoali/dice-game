@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Advanced Dice Game</h1>
+        <div class="dice-container">
+            <div id="dice1" class="dice"></div>
+            <div id="dice2" class="dice"></div>
+        </div>
+        <label for="colorSelect">Choose Dice Color:</label>
+        <select id="colorSelect">
+            <option value="white">White</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+        <button id="rollButton">Roll Dice</button>
+        <p class="result" id="result">Result: </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
